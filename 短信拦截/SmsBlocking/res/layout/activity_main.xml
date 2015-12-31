@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/sendToId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="填写需要转发到的号码"
+        android:inputType="phone"
+        android:paddingLeft="5dp"
+        android:text="17080951305"/>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="是否开启本机接收:" />
+
+
+    <Button
+        android:id="@+id/saveBtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="提交" />
+
+</LinearLayout>
