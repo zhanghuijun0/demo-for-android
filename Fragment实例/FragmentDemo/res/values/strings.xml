@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">FragmentDemo</string>
+    <string name="main_tab_label_search">搜索</string>
+    <string name="main_tab_label_list">列表</string>
+    <string name="main_tab_label_news">资讯</string>
+    <string name="main_tab_label_profile">我的</string>
+
+</resources>

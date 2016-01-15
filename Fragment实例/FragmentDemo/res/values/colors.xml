@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_transparent">#00000000</color>
+    <color name="common_tabbar_bg">#3D3D3D</color>
+	<color name="common_tab_selected_bg">#2D2D2D</color>
+	<color name="common_activity_bg">#FFFFFFFF</color>
+	<color name ="common_main_textcolor">#FF0077C9</color>
+	
+</resources>
