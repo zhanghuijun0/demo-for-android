@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/news_listitem_padding" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/news_listitem_bg_selector" >
+
+            <com.loopj.android.image.SmartImageView
+                android:id="@+id/siv_news_company_listitem_image"
+                android:layout_width="@dimen/news_listitem_smart_image_view_width"
+                android:layout_height="@dimen/news_listitem_smart_image_view_height"
+                android:background="@drawable/news_listitem_img_bg_selector"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/news_listitem_bg_selector"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/news_listitem_right_padding_left" >
+
+            <TextView
+                android:id="@+id/tv_news_comapny_listitem_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/news_listitem_title"
+                android:textSize="@dimen/news_listitem_title_text_size" />
+
+            <TextView
+                android:id="@+id/tv_news_comapny_listitem_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/news_listitem_date"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_news_comapny_listitem_brief"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/news_listitem_brief_margin_top"
+                android:maxLines="2"
+                android:textColor="@color/news_listitem_biref" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_view_company"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/news_listitem_line_view_height"
+        android:layout_marginLeft="@dimen/news_listitem_line_view_margin_left"
+        android:layout_marginRight="@dimen/news_listitem_line_view_margin_right"
+        android:background="@color/news_listitem_line_view_background" />
+
+</LinearLayout>

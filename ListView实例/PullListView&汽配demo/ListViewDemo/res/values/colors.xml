@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	
+	<color name ="news_listitem_title">#FF2D2D2D</color>
+	<color name ="news_listitem_date">#FFBCBCBC</color>
+	<color name ="news_listitem_biref">#999999</color>
+	<color name ="news_listitem_line_view_background">#E1E1E1</color>
+</resources>
